@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>פז - עמוד הבית</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>פז - עמוד הבית</title>
+</head>
 
-  <body>
-    <nav class=menu>
+<body>
+  <header>
+    <nav class="menu">
+      <img class="img-logo" src="images\paz_logo.png" alt="paz logo">
       <ul>
+        <li id="home">
+          <img src="images\home_new.png" alt="">
+        </li>
         <li class="dropdown-menu">
-          <a href="#">אודות</a></li>
+          <a href="#">אודות</a>
           <div class="dropdown-content">
-            <a href="#">אודות</a>
-            <a href="#">היסטוריה</a>
-            <a href="#">חזון וערכים</a>
-            <a href="#">מבנה הקבוצה</a>
-            <a href="#">חברי דריקטוריון</a>
-            <a href="#">הנהלת הקבוצה</a>
-            <a href="#">פרסים והוקרה</a>
+              <a href="#">אודות</a>
+              <a href="#">היסטוריה</a>
+              <a href="#">חזון וערכים</a>
+              <a href="#">מבנה הקבוצה</a>
+              <a href="#">חברי דריקטוריון</a>
+              <a href="#">הנהלת הקבוצה</a>
+              <a href="#">פרסים והוקרה</a>
           </div>
+        </li>
         <li class="dropdown-menu">
-          <a href="#">חטיבות</a></li>
-          <div class="dropdown-content">
             <a href="#">חטיבות</a>
-            <a href="#">קמעונאות ומסחר</a>
-            <a href="#">תעשיות ושירותים</a>
-            <a href="#">זיקוק</a>
-          </div>
+            <div class="dropdown-content">
+              <a href="#">חטיבות</a>
+              <a href="#">קמעונאות ומסחר</a>
+              <a href="#">תעשיות ושירותים</a>
+              <a href="#">זיקוק</a>
+            </div>
+        </li>
         <li class="dropdown-menu">
-          <a href="#">"אחריות תאגידית"</a></li>
-          <div class="dropdown-content">
             <a href="#">אחריות תאגידית</a>
-            <a href="#">הקוד האתי</a>
-            <a href="#">מעורבות חברתית</a>
-            <a href="#">נגישות</a>
-            <a href="#">איכות הסביבה ובטיחות</a>
-            <a href="#">דירוג מעלה</a>
-          </div>
+            <div class="dropdown-content">
+              <a href="#">אחריות תאגידית</a>
+              <a href="#">הקוד האתי</a>
+              <a href="#">מעורבות חברתית</a>
+              <a href="#">נגישות</a>
+              <a href="#">איכות הסביבה ובטיחות</a>
+              <a href="#">דירוג מעלה</a>
+            </div>
+        </li>
         <li class="dropdown-menu">
-          <a href="#">קשרי משקיעים</a></li>
-          <div class="dropdown-content">
-            <a href="#">פרופיל חברה</a>
-            <a href="#">דו"חות כספיים</a>
-            <a href="#">כלים למשקיע</a>
-            <a href="#">נתוני מניה</a>
-            <a href="#">אסיפות כלליות</a> 
-          </div>
+            <a href="#">קשרי משקיעים</a>
+            <div class="dropdown-content">
+              <a href="#">פרופיל חברה</a>
+              <a href="#">דו"חות כספיים</a>
+              <a href="#">כלים למשקיע</a>
+              <a href="#">נתוני מניה</a>
+              <a href="#">אסיפות כלליות</a>
+            </div>
+        </li>
         <li class="dropdown-menu">
-          <a href="#">התחנות שלנו</a></li>
-          <div class="dropdown-content">
             <a href="#">התחנות שלנו</a>
-            <a href="#">נגישות מתחמי פז</a>
-            <a href="#">רשימת תחנות</a>
-            <a href="#">מועדונים</a>
-          </div>
+            <div class="dropdown-content">
+              <a href="#">התחנות שלנו</a>
+              <a href="#">נגישות מתחמי פז</a>
+               <a href="#">רשימת תחנות</a>
+              <a href="#">מועדונים</a>
+            </div>
+        </li>
         <li class="dropdown-menu">
-          <a href="#">קריירה</a></li>
-          <div class="dropdown-content">
-            <a href="#">לעבוד בפז</a>
-            <a href="#">ניהול תחנת פז</a>
             <a href="#">קריירה</a>
-          </div>
+            <div class="dropdown-content">
+              <a href="#">לעבוד בפז</a>
+              <a href="#">ניהול תחנת פז</a>
+              <a href="#">קריירה</a>
+            </div>
         <li class="dropdown-menu">
-          <a href="#">חדשות ומדיה</a></li>
-          <div class="dropdown-content">
-            <a href="#">פרסומות</a>
-            <a href="#">הודעות לעיתונות</a>
-          </div>
+            <a href="#">חדשות ומדיה</a>
+            <div class="dropdown-content">
+              <a href="#">פרסומות</a>
+              <a href="#">הודעות לעיתונות</a>
+            </div>
+        </li>
       </ul>
     </nav>
+  </header>
+
+<main>
+  <div class="row">
+    <div class="column width-333">
+      <img class="img-fr" src="images/pic1.jpg" alt="קמעונאות ומסחר">
+        <div class="textarea">
+          <h3>קמעונאות ומסחר</h3>
+          <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
+          <a href="">\image\read_more_yellow.png
+            <span>קרא עוד</span>
+          </a>
+        </div>
+    </div>
+  <div>
+    
+</main>
 
 
-  </body>
-  
+            
+
+
+
+</body>
+
 </html>

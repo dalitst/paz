@@ -1,14 +1,48 @@
-body{direction:rtl; text-align:right;}
+body{
+    direction:rtl;
+    text-align:right;
+    margin:0;
+    padding-bottom:30px;
+    font-family:arial(hebrow);
+    /* padding-bottom:38px; */
+}
 
 * {
     box-sizing: border-box;
   }
 
+header{
+    height:105px;
+    background-color:rgb(144,144,144);
+    /*linear-gradient(rgb(144,144,144)85%,rgb(170,170,170);*/
+}
+
+.menu{
+    position:relative;
+}
+
+.img-logo{
+    position: absolute;
+    right:190px;
+    top:40px;
+}
+
+#home{
+    cursor:pointer;
+    padding:10px;
+}
+
+/* #home{
+    width: 17px;
+    height: 15px;
+    background: url('images\menu_home.png') 0 0;
+} */
+
 .menu > ul {
     list-style: none;
-    padding: 0;
+    padding-top: 60px;
+    padding-right: 340px;
     margin: 0;
-    background-color:rgba(255, 255, 255, 0.3);
 }
 
 .menu > ul > li{
@@ -18,30 +52,72 @@ body{direction:rtl; text-align:right;}
 .menu > ul > li > a{
     text-decoration: none;
     color:white;
-    padding: 10px;
     display: inline-block;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:15px;
+    padding-bottom:10px;
 }
-
+  
 .menu > ul > li > a:hover{
     color:blue;
     text-decoration:underline;
 } 
 
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+}
+
 .dropdown-menu {
     position: relative;
-  }
+    border-right:1px solid white;
+}
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
-    background-color:rgba(255, 255, 255, 0.7);
-    width: 150px;
+    background-color:rgb(144,144,144);
+    width: 120px;
     position: absolute;
-    left: 0;
-  }
+    right: 0;
+}
 
-  .dropdown-content > a {
+.dropdown-content > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom: 0.5px solid white;
+}
+
+.dropdown-content > a:hover {
+    background-color:rgb(177,177,177);
     text-decoration: underline;
     color: blue;
-    display: block;
-    padding: 10px;
+ }
+
+ 
+ .main{
+    width:900px;
+ }
+
+ .row{
+     position:relative;
+     float:right;
+     width:33%;
+     padding-top:40px;
+ }
+ 
+ 
+ .row::after{
+    content:"";
+    clear:both;
+    display:table;
   }
+
+ .art-fr{
+    float:right;
+    /* margin-left:10px; */
+  }
+  
