@@ -3,7 +3,7 @@ body{
     text-align:right;
     margin:0;
     padding-bottom:30px;
-    font-family:arial(hebrow);
+    font-family:arial(hebrow), Arial;
     /* padding-bottom:38px; */
 }
 
