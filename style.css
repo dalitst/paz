@@ -1,10 +1,10 @@
 body{
     direction:rtl;
-    text-align:right;
+    text-align:center;
     margin:0;
-    padding-bottom:30px;
-    font-family:arial(hebrow), Arial;
-    /* padding-bottom:38px; */
+    padding-bottom:38px; 
+    font-family: Arial;
+    width:900px;
 }
 
 * {
